@@ -4,6 +4,77 @@
 <html>
     <head>
         <title>Simple Calculator</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            section {
+                margin-bottom: 40px;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            form label {
+                margin-right: 10px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 8px;
+                border-bottom: 1px solid #ddd;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 20px;
+            }
+
+            li {
+                margin-bottom: 8px;
+            }
+
+            /* Optional: Add some styling for the "Add" button */
+            input[type="submit"] {
+                padding: 5px 10px;
+                background-color: #007BFF;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+            /* Optional: Add some styling for the table rows */
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr:hover {
+                background-color: #f9f9f9;
+            }
+        </style>
     </head>
     <body>
         <h1>Simple Calculator</h1>

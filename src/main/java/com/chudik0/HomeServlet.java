@@ -31,7 +31,7 @@ public class HomeServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         int operand1 = Integer.parseInt(req.getParameter("operand1"));
         int operand2 = Integer.parseInt(req.getParameter("operand2"));
 
